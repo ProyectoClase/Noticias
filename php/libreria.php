@@ -113,4 +113,21 @@ function hay_sesion()
     }
 }
 
+function es_administrador($login)
+    {
+        $dwes=conectar();
+        $rol = $_SESSION['rol'];
+        $consulta="SELECT * FROM usuarios 
+        where login like ? and rol_nombre like 'Administrador'";
+        $resultado = $dwes->prepare($consulta);
+        $resultado->bindParam(1, $login);
+        $resultado->execute();
+
+        if ($resultado->rowCount()>0) {
+            return 1;
+        } else {
+            return 0;
+        }
+        cierra_db($dwes);
+    }
 
