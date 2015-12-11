@@ -1,17 +1,5 @@
-/* Slidorion Stylesheet */
 body{
     background: #B9D3EE;
-}
-.slidorion {
-	position: relative;
-	width: 870px;			/* Set to slidorion width. Is equal to .slider + .accordion width */
-	height: 400px;			/* Set to slidorion height. Is equal to .slider and .accordion height */
-	left: 50%;
-	background: #CBCBCB;
-	padding: 10px;
-	border: 1px solid #BBB;
-	box-shadow: 0 0 34px #bbb;
-	margin-left: -436px;
 }
 
 .contenedor{
@@ -76,7 +64,7 @@ body{
 	margin-bottom: 10px;
 }
 
-.slidorion .slidorion-nav {
+.deslizador .slidorion-nav {
     position: absolute;
     top: 200px;
     width: 16px;
@@ -85,11 +73,11 @@ body{
     cursor: pointer;
 }
 
-.slidorion .slidorion-nav-left {
+.deslizador .slidorion-nav-left {
 	left: 30px;
 }
 
-.slidorion .slidorion-nav-right {
+.deslizador .slidorion-nav-right {
 	right: 310px;
 	background-position: -16px 0;
 }

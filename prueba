@@ -1,0 +1,5 @@
+<php
+session_start();
+$_SESSION['usuario']="fulano";
+$_SESSION['rol']="Administrador";
+header("Location: php/noticias.php);

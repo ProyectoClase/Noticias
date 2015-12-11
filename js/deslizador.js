@@ -1,10 +1,3 @@
-/*!
- * Slidorion, An Image Slider and Accordion Combined
- * Intructions: http://www.slidorion.com
- * Created by Ben Holland - http://www.benholland.me
- * Version: 1.2.0
- * Copyright 2013 Ben Holland <hi@benhlland.me>
- */
 (function($) {
     'use strict';
 
